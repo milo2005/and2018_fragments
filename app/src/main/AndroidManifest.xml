@@ -14,7 +14,9 @@
         <activity android:name=".MainActivity">
 
         </activity>
-        <activity android:name=".PagerActivity">
+        <activity android:name=".PagerActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

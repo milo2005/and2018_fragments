@@ -11,6 +11,8 @@ class PagerActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pager)
 
+        setSupportActionBar(toolbar)
+
         pager.adapter = ColorAdapter(this, supportFragmentManager)
         tabs.setupWithViewPager(pager)
     }
